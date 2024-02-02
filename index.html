@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin panel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body onresize="s()">
+     <div>
+        <div class="top-nav">
+   <div class="topnav-iner">
+    <img src="mens.png" alt="" >
+   
+   </div>
+   <div class="top-navine2">
+    <img src="hamburger.png" alt="" class="menu-bar" onclick="button()">
+    <!-- <button onclick="button()">button</button> -->
+   </div>
+   <div class="top-navine3">
+     <div class="top-iner3-1">
+    <img src="gear_12231943.png" alt="" class="setting">
+    <button class="butt">Nothing</button>
+    <div class="help">help</div>
+     </div>
+   </div>
+        </div>
+        <div class="main flex">
+            <div id="nav">
+             <ul>
+                <li> <img src="home.png" alt="" class="icon">    <a href="">Home</a></li>
+                <li> <img src="delivery-truck_6742534.png" alt="" class="icon">  <a href="">Supplier</a></li>
+                <li> <img src="support.png" alt="" class="icon">  <a href="">Customer</a></li>
+                <li> <img src="employee.png" alt="" class="icon">  <a href="">Employ</a></li>
+                <li> <img src="transition.png" alt="" class="icon">  <a href="">Transition</a></li>
+                <li> <img src="report.png" alt="" class="icon">  <a href="">Reports</a></li>
+                <li> <img src="gps.png" alt="" class="icon">  <a href="">Gps</a></li>
+                <li><img src="app-development.png" class="icon">  <a href="">Apps</a></li>
+             </ul>
+            </div>
+            
+            <div class="head">
+                <div class="head-main1"> 
+                    <div class="head1-txt1">
+                      Sales Transection
+                    </div>
+                    <div class="head1-txt2">
+                          New transaction
+                    </div>
+                </div>
+
+                <div class="head-main2">
+                    <div class="head-main2-iner1">
+                        <div class="iner1-txt1">
+              Unbilled last 35 days
+                        </div>
+                        <div class="iner1-txt2">
+                             <div class="iner1-txt2-iner1">
+                                      A$ 3,3000 <br> 2 Qoutes
+                             </div>
+                             <div class="iner1-txt2-iner2">
+                                A $ 0 <br>
+                                1 Unbilled pay
+                             </div>
+                        </div>
+                    </div>
+                    <div class="head-main2-iner2">
+                        <div class="iner2-txt1">
+                            Unpaid last 35 days
+                                      </div>
+                                      <div class="iner2-txt2">
+                                           <div class="iner2-txt2-iner1">
+                                                    A$ 3,3000 <br> 2 Qoutes
+                                           </div>
+                                           <div class="iner2-txt2-iner2">
+                                              A $ 0 <br>
+                                              1 Unbilled pay
+                                           </div>
+                                      </div>
+                    </div>
+                    <div class="head-main2-iner3">
+                        <div class="iner3-txt1">
+                            paid
+                                      </div>
+                                      <div class="iner3-txt2">
+                                         
+                                           <div class="iner3-txt2-iner1">
+                                              A $ 0 <br>
+                                             0 paid Last 30 days
+                                           </div>
+                                      </div>
+                                    </div>
+                                     </div>
+                <div class="head-main4"> 
+                  <div class="main4-main-iner1">
+                    <div class="main2-iner1-txt1">
+                    <select name="Fit" id="" class="select">
+                        <option value="">Filter</option>
+                        <option value="">360 days</option>
+                        <option value="">90 days</option>
+                        <option value="">30 days</option>
+                        <option value="">1 week</option>
+                    </select>
+                    Last 365 days
+                  </div>
+
+                    <div class="main2-iner1-txt2">
+                   <img src="gear_12231943.png" alt="" class="setting">
+                   <img src="support.png" alt="" class="setting">
+                   <img src="employee.png" alt="" class="setting">
+                     </div>
+            </div> 
+            <div class="head-main5">
+                <table>
+                    <tr>
+                    <th></th>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>No</th>
+                    <th>Custom</th>
+                    <th>Due date</th>
+                    <th>Due date</th>
+                    <th>Due date</th>
+                    <th>Balance</th>
+                    <th>Total Bef</th>
+                    <th>Gst</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>19/11/2015</td>
+                            <td>Qoute</td>
+                            <td>No</td>
+                            <td>Custom</td>
+                            <td>Due date</td>
+                            <td>Due date</td>
+                            <td>Due date</td>
+                            <td>Balance</td>
+                            <td>Total Bef</td>
+                            <td>Gst</td>
+                            <td>Total</th>
+                            <td>Status</th>
+                            <td>Action</th>
+                                  </tr>
+                                  <tr>
+                                    <td></td>
+                                    <td>19/11/2015</td>
+                                    <td>Qoute</td>
+                                    <td>No</td>
+                                    <td>Custom</td>
+                                    <td>Due date</td>
+                                    <td>Due date</td>
+                                    <td>Due date</td>
+                                    <td>Balance</td>
+                                    <td>Total Bef</td>
+                                    <td>Gst</td>
+                                    <td>Total</th>
+                                    <td>Status</th>
+                                    <td>Action</th>
+                                          </tr>
+                                          
+                                          <tr>
+                                            <td></td>
+                                            <td>19/11/2015</td>
+                                            <td>Qoute</td>
+                                            <td>No</td>
+                                            <td>Custom</td>
+                                            <td>Due date</td>
+                                            <td>Due date</td>
+                                            <td>Due date</td>
+                                            <td>Balance</td>
+                                            <td>Total Bef</td>
+                                            <td>Gst</td>
+                                            <td>Total</th>
+                                            <td>Status</th>
+                                            <td>Action</th>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td></td>
+                                                    <td>19/11/2015</td>
+                                                    <td>Qoute</td>
+                                                    <td>No</td>
+                                                    <td>Custom</td>
+                                                    <td>Due date</td>
+                                                    <td>Due date</td>
+                                                    <td>Due date</td>
+                                                    <td>Balance</td>
+                                                    <td>Total Bef</td>
+                                                    <td>Gst</td>
+                                                    <td>Total</th>
+                                                    <td>Status</th>
+                                                    <td>Action</th>
+                                                          </tr>
+                                                          <tr>
+                                                            <td></td>
+                                                            <td>19/11/2015</td>
+                                                            <td>Qoute</td>
+                                                            <td>No</td>
+                                                            <td>Custom</td>
+                                                            <td>Due date</td>
+                                                            <td>Due date</td>
+                                                            <td>Due date</td>
+                                                            <td>Balance</td>
+                                                            <td>Total Bef</td>
+                                                            <td>Gst</td>
+                                                            <td>Total</th>
+                                                            <td>Status</th>
+                                                            <td>Action</th>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td></td>
+                                                                    <td>19/11/2015</td>
+                                                                    <td>Qoute</td>
+                                                                    <td>No</td>
+                                                                    <td>Custom</td>
+                                                                    <td>Due date</td>
+                                                                    <td>Due date</td>
+                                                                    <td>Due date</td>
+                                                                    <td>Balance</td>
+                                                                    <td>Total Bef</td>
+                                                                    <td>Gst</td>
+                                                                    <td>Total</th>
+                                                                    <td>Status</th>
+                                                                    <td>start</th>
+                                                                          </tr>
+                </table>
+            </div>
+        </div>
+     </div>
+</body>
+ <script>
+     let a=1
+
+function s()
+{
+    let p=screen.width;
+    console.log(p)
+    if(p>800)
+    {
+       document.getElementById('nav').style="visibility:visible;"
+      
+    }
+    else{
+        document.getElementById('nav').style="transform:translate(-200px);"
+    }
+    
+}
+function button()
+{
+    if(a==1){
+        document.getElementById('nav').style="visibility:visible;"
+        a++
+     }  
+     else{
+        document.getElementById('nav').style="transform:translate(-170px);"
+        a--
+     }
+}
+ </script>
+</html>
